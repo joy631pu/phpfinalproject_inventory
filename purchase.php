@@ -1,3 +1,4 @@
+<!-- include index.php file -->
 <?php
 include "index.php";
 ?>
@@ -7,11 +8,12 @@ include "index.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Comox Fashion</title>
 </head>
 <body>
     <div class="container">
         <h5>Purchase</h5>
+        <!-- Form for purchasing -->
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
   <div class="mb-3">
     <label for="exampleInputName" class="form-label">Product Name</label>

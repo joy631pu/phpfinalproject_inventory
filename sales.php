@@ -1,3 +1,4 @@
+<!-- include index.php -->
 <?php
 include "index.php";
 ?>
@@ -8,6 +9,7 @@ include "index.php";
 <body>
     <div class="container">
     <h5>Sales</h5>
+    <!-- Table for showing different sales elements -->
     <table class="table table-striped">
   <thead>
     <tr>

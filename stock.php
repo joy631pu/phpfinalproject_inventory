@@ -1,15 +1,18 @@
+<!-- include index.php -->
 <?php
 include "index.php";
 ?>
 <html>
 <head>
 <title>Comox Fashion</title>
+    <!-- Establish link to external CSS style sheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
     <h5>Stock Status</h5>
+    <!-- Table for showing different products and their available quantity -->
     <table class="table table-striped">
   <thead>
     <tr>

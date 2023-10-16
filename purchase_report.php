@@ -1,3 +1,4 @@
+<!-- include index.php file -->
 <?php
 include "index.php";
 ?>
@@ -11,6 +12,7 @@ include "index.php";
 </head>
 <body>
 <div class="container">
+  <!-- Form for showing purchase report based on a start date and end date -->
 <form>
   <label for="starttime">Start (date and time):</label>
   <input type="datetime-local" id="starttime" name="starttime">
@@ -19,8 +21,10 @@ include "index.php";
   <input type="datetime-local" id="endtime" name="endtime">
   <input type="submit" name="submit">
 </form>
+<!-- Button for printing report -->
 <button type="button" onclick="window.print();return false;">Pdf Report</button>
 <h5>Purchase Report</h5>
+<!-- Table for showing different purchase element -->
 <table class="table table-striped">
   <thead>
     <tr>
