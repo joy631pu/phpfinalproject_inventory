@@ -6,7 +6,7 @@ if(isset($_SESSION['auth']))
 {
     if($_SESSION['auth']==1)
     {
-        header("location:nav.php");
+        header("location:main.php");
     }
 }
 
@@ -19,7 +19,7 @@ if(isset($_SESSION['auth']))
         if($id=='admin' && $pass=='admin')
         {
             $_SESSION['auth']=1;
-            header("location:nav.php");
+            header("location:main.php");
         }
 
         else

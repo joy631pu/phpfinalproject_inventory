@@ -1,3 +1,18 @@
+<?php
+SESSION_START();
+
+ if(isset($_SESSION['auth']))
+ {
+    if($_SESSION['auth']!=1)
+    {
+        header("location:index.php");
+    }
+ }
+ else
+ {
+    header("location:index.php");
+ }
+?>
 <html>
 <head>
     <title>Comox Fashion</title>
