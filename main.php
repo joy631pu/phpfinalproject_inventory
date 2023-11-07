@@ -31,7 +31,7 @@ if(isset($_GET['remove'])){
 
 <html>
 <head>
-    <title></title>
+    <title>Comox Fashion</title>
 </head>
 <body>
     <div class="container">
