@@ -1,3 +1,4 @@
+<!-- Main Page -->
 <?php
     include "nav.php";
     include "connection.php";

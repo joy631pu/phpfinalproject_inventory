@@ -1,3 +1,4 @@
+<!-- Sales Report Page -->
 <div class="container">
   <!-- Form for showing sales report based on a start date and end date -->
 <form>

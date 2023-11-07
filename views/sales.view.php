@@ -1,3 +1,4 @@
+<!-- Sales Page -->
 <html>
 <head>
     <title>Comox Fashion</title>

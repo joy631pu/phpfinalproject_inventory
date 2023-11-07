@@ -1,3 +1,4 @@
+<!-- Navigation Bar -->
 <!-- <?php
 SESSION_START();
 
