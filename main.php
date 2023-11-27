@@ -17,7 +17,11 @@ if(isset($_POST['update_btn'])){
   $update_query = mysqli_query($conn, "UPDATE `product` SET unitprice = '$unitprice' , name='$name' , des='$des' ,unit='$unit'  WHERE id = '$update_id'");
   if($update_query){
      header('location:main.php');
-  };
+  }
+  // else{
+  //   error_log("Database error");
+  // }
+  ;
 };
 
 if(isset($_GET['remove'])){

@@ -19,6 +19,7 @@ if (isset($_POST['submit']))
     } else 
     {
       echo "Error: " . $sql . "<br>" . $conn->error;
+      //error_log("Database Error");
     }
     
     if ($conn->query($insertsql) === TRUE) 
@@ -27,6 +28,7 @@ if (isset($_POST['submit']))
     } else 
     {
       echo "Error: " . $sql . "<br>" . $conn->error;
+      //error_log("Database Error");
     }
 
     } 
