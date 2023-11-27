@@ -1,3 +1,4 @@
+# Lab 12D: Applying Debugging Skills
 ## Student: Joy Barua
 ## Section: DLU1I
 ### Assignment Link: https://github.com/joy631pu/phpfinalproject_inventory
