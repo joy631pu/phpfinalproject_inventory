@@ -1,0 +1,6 @@
+[27-Nov-2023 08:59:09 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\Xampp\htdocs\phpfinalproject_inventory\views\index.view.php on line 8
+[27-Nov-2023 08:59:13 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\Xampp\htdocs\phpfinalproject_inventory\views\index.view.php on line 8
+[27-Nov-2023 08:59:22 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\Xampp\htdocs\phpfinalproject_inventory\views\index.view.php on line 8
+[27-Nov-2023 08:59:24 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\Xampp\htdocs\phpfinalproject_inventory\views\index.view.php on line 8
+[27-Nov-2023 08:59:30 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\Xampp\htdocs\phpfinalproject_inventory\views\index.view.php on line 8
+[27-Nov-2023 08:59:57 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\Xampp\htdocs\phpfinalproject_inventory\views\index.view.php on line 8
