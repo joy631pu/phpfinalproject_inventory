@@ -6,6 +6,7 @@ ini_set("error_log", __DIR__ . DIRECTORY_SEPARATOR . "error.log"); // LOG FILE
 ini_set("display_errors", 1);
 // User Session
 SESSION_START();
+
 // Password verification
 if(isset($_SESSION['auth']))
 {
@@ -20,7 +21,7 @@ if(isset($_SESSION['auth']))
     {
         $id = $_POST['id'];
         $pass = ($_POST['password']);
-
+        
         if($id=='admin' && $pass=='admin')
         {
             $_SESSION['auth']=1;
@@ -33,8 +34,17 @@ if(isset($_SESSION['auth']))
         }
 
     }
+// Dump the variable section
+// $sample_session = ['Joy','Barua'];
+// var_dump($sample_session);
 
-
+// Output
+// array(2) {
+//   [0]=>
+//   string(3) "Joy"
+//   [1]=>
+//   string(5) "Barua"
+// }
 ?>
 <!DOCTYPE html>
 <html>
