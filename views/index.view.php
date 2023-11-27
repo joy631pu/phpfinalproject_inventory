@@ -14,6 +14,7 @@ if(isset($_SESSION['auth']))
     {
         header("location:main.php");
     }
+    // echo $_SESSION['auth'];
 }
 
 
@@ -26,11 +27,13 @@ if(isset($_SESSION['auth']))
         {
             $_SESSION['auth']=1;
             header("location:main.php");
+            // echo $_SESSION['auth'];
         }
 
         else
         {
             echo "invalid";
+            //echo $_SESSION['auth'];
         }
 
     }
