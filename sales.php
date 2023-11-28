@@ -21,7 +21,7 @@ if($unit>=$unitsale)
 
 if ($conn->query($insertsql) === TRUE) 
 {
-  echo " Sell successfully";
+  echo " Sold successfully, ";
 } 
 else 
 {
@@ -32,7 +32,7 @@ $update_quantity_query = "UPDATE `product` SET unit = '$u_unit'  WHERE id = '$id
 
 if ($conn->query($update_quantity_query) === TRUE) 
 {
-  echo " Update successfully";
+  echo " Updated successfully";
 } 
 else 
 {
