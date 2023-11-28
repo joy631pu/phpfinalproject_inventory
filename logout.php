@@ -1,17 +1,7 @@
-<!-- Logout Page -->
-<?php
+<?php 
+session_start();
 
-SESSION_START();
+session_unset();
+session_destroy();
 
-if(isset($_SESSION['auth']))
-{
-	session_destroy();
-	header("location:index.php");
-}
-else
-{
-	header("location:index.php");
-}
-
-
-?>
+header("Location: index.php");
