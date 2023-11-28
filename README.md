@@ -3,7 +3,7 @@
 ## Section: DLU1I
 ## Inventory Management System for a local cloth store
 
-## Project Deployment Link: https://dgl123.jbarua.imgd.ca/phpfinalproject_inventory
+### Project Deployment Link: https://dgl123.jbarua.imgd.ca/phpfinalproject_inventory
 
 # Project Documentation: 
 ## Features (Modified):
