@@ -1,4 +1,4 @@
-- [ ] Deploy using AWS
+- [x] Deploy using AWS
 - [ ] Transfer the database from localhost to AWS
 - [ ] Complete the rest of the features
 - [ ] Add a standard login feature where username and password will be on the database (password should not be inside the code)
