@@ -1,9 +1,8 @@
-<!-- Purchase or add new product to the product table -->
 <?php
-include "nav.php";
-include "connection.php";
-include "views/purchase.view.php";
-if (isset($_POST['submit'])) 
+    include "header.php";
+    include "db_conn.php";
+
+    if (isset($_POST['submit'])) 
     {
     $name=$_POST['name'];
     $des=$_POST['des'];
@@ -19,7 +18,6 @@ if (isset($_POST['submit']))
     } else 
     {
       echo "Error: " . $sql . "<br>" . $conn->error;
-      //error_log("Database Error");
     }
     
     if ($conn->query($insertsql) === TRUE) 
@@ -28,8 +26,8 @@ if (isset($_POST['submit']))
     } else 
     {
       echo "Error: " . $sql . "<br>" . $conn->error;
-      //error_log("Database Error");
     }
 
     } 
 ?>
+<?php include "views/purchase.view.php" ?>

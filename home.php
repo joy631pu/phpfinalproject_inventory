@@ -28,5 +28,10 @@ if(isset($_GET['remove'])){
 
 ?>
 
-
+<?php include "views/hometop.view.php" ?>
+   
+<?php require "modal/home.modal.php" ?>
+      
+<?php include "views/homebottom.view.php" ?>
+    
   
